@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             btnReset.setOnClickListener {
-                chronometer.base = SystemClock.elapsedRealtime() + timeStop
+                chronometer.base = SystemClock.elapsedRealtime()
                 chronometer.stop()
                 timeStop=0
                 btnPause.visibility = View.GONE
