@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
                 chronometer.base = SystemClock.elapsedRealtime() + timeStop
                 chronometer.stop()
                 timeStop=0
-                btnStart.visibility = View.GONE
-                btnPause.visibility = View.VISIBLE
+                btnPause.visibility = View.GONE
+                btnStart.visibility = View.VISIBLE
                 imageView.setImageDrawable(getDrawable(R.drawable.start))
             }
         }
